@@ -14,6 +14,8 @@
 		8D207B6C24FE237E0022DACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D207B6B24FE237E0022DACA /* Assets.xcassets */; };
 		8D207B6F24FE237E0022DACA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D207B6E24FE237E0022DACA /* Preview Assets.xcassets */; };
 		8D207B7224FE237E0022DACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D207B7024FE237E0022DACA /* LaunchScreen.storyboard */; };
+		8D207B7A24FE248A0022DACA /* CaptureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D207B7924FE248A0022DACA /* CaptureImageView.swift */; };
+		8D207B7C24FE26270022DACA /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D207B7B24FE26270022DACA /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8D207B6E24FE237E0022DACA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8D207B7124FE237E0022DACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D207B7324FE237E0022DACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D207B7924FE248A0022DACA /* CaptureImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureImageView.swift; sourceTree = "<group>"; };
+		8D207B7B24FE26270022DACA /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				8D207B6224FE237D0022DACA /* AppDelegate.swift */,
 				8D207B6424FE237D0022DACA /* SceneDelegate.swift */,
 				8D207B6924FE237D0022DACA /* ContentView.swift */,
+				8D207B7924FE248A0022DACA /* CaptureImageView.swift */,
+				8D207B7B24FE26270022DACA /* Coordinator.swift */,
 				8D207B6B24FE237E0022DACA /* Assets.xcassets */,
 				8D207B7024FE237E0022DACA /* LaunchScreen.storyboard */,
 				8D207B7324FE237E0022DACA /* Info.plist */,
@@ -151,8 +157,10 @@
 			files = (
 				8D207B6824FE237D0022DACA /* ImagePicker_SwiftUI.xcdatamodeld in Sources */,
 				8D207B6324FE237D0022DACA /* AppDelegate.swift in Sources */,
+				8D207B7C24FE26270022DACA /* Coordinator.swift in Sources */,
 				8D207B6A24FE237D0022DACA /* ContentView.swift in Sources */,
 				8D207B6524FE237D0022DACA /* SceneDelegate.swift in Sources */,
+				8D207B7A24FE248A0022DACA /* CaptureImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
