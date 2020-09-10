@@ -27,6 +27,8 @@ struct ContentView: View {
                     .clipShape(Circle())
                     .overlay(Circle().stroke(Color.white, lineWidth: 4))
                     .shadow(radius: 10)
+                    .onTapGesture {
+                }
             }
             if (showCaptureImageView) {
                 CaptureImageView(isShown: $showCaptureImageView, image: $image)
@@ -40,3 +42,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
